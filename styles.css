@@ -1,3 +1,6 @@
+
+/* Estilos Globais */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +12,8 @@ body {
   font-size: 16px;
 }
 
+/* Header da página */
+
 .header {
   background: #ccc;
   width: 100%;
@@ -17,6 +22,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
+/* Estilização das Listas */
 
 .lists {
   display: flex;
@@ -48,9 +55,9 @@ body {
   justify-content: space-around;
 }
 
-.box-space {
+.box-space-dragable, .box-space-droppable {
   background: #F6F5FC;
-  margin: 16px 0;
+  margin: 32px 0;
   height: 120px;
   display: flex;
   align-items: center;
@@ -70,4 +77,14 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+}
+
+/* Estilos de Efeitos */
+
+.invisible {
+  display: none;
+}
+
+.enter {
+  border: dashed 2px #bbb;
 }

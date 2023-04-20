@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" >
+  <script src="./script.js" defer></script>
   <title>Kanban</title>
 </head>
 <body>  
@@ -17,24 +18,28 @@
         <h2>Lista 1</h2>
       </div>
       <div class="list-body">
-        <div class="box-space"><p class="drag">Box 1</p></div>
-        <div class="box-space"><p class="drag">Box 2</p></div>
-        <div class="box-space"><p class="drag">Box 3</p></div>
-        <div class="box-space"><p class="drag">Box 4</p></div>
-        <div class="box-space"><p class="drag">Box 5</p></div>
+        <div class="drag-container">
+          <div class="box-space-dragable"><p class="drag">Box 1</p></div>
+          <div class="box-space-dragable"><p class="drag">Box 2</p></div>
+          <div class="box-space-dragable"><p class="drag">Box 3</p></div>
+          <div class="box-space-dragable"><p class="drag">Box 4</p></div>
+          <div class="box-space-dragable"><p class="drag">Box 5</p></div>
+        </div>
       </div>
     </div>
-    
+
     <div class="list">
       <div class="list-header">
         <h2>Lista 2</h2>
       </div>
       <div class="list-body">
-        <div class="box-space"></div>
-        <div class="box-space"></div>
-        <div class="box-space"></div>
-        <div class="box-space"></div>
-        <div class="box-space"></div>
+        <div class="drop-container">
+          <div class="box-space-droppable"></div>
+          <div class="box-space-droppable"></div>
+          <div class="box-space-droppable"></div>
+          <div class="box-space-droppable"></div>
+          <div class="box-space-droppable"></div>
+        </div>
       </div>
     </div>
   </div>
