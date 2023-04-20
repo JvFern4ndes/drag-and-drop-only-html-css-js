@@ -36,7 +36,9 @@ function dropEvent(e) {
   el.className = 'drag';
   el.innerText = e.dataTransfer.getData('text');
 
-  this.appendChild(el)
+  el.setAttribute('draggable', 'true');
+
+  this.appendChild(el);
 }
 
 function dragLeave(e) {
