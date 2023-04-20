@@ -17,3 +17,42 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.lists {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 0;
+}
+
+.list {
+  background: #aaa;
+  width: 16rem;
+  height: max-content;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.list-header {
+  background: #F6F5FC;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 64px;
+}
+
+.list-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box-space {
+  background: #F6F5FC;
+  margin: 16px 0;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
